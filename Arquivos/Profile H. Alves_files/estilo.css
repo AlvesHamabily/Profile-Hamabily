@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:rgb(217, 182, 131);
+    color: black;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-align: center;
+    min-height: 100%;
+}
+header {
+    background-color: rgb(85, 10, 85); 
+    color: #fff;
+    padding: 20px;  
+    width: 100%;
+}
+
+nav {
+    background-color: rgb(85, 10, 85); 
+    padding: 10px 0; 
+}
+
+nav a {
+    color: #fff; 
+    text-decoration: none; 
+    margin: 10px 10px;
+    border-radius: 2px;
+}
+
+nav a:hover{
+    color: rgb(234, 175, 234); 
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container1 {
+    flex: 1;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.container2 {
+    flex: 1;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.foto_perfil {
+    width: 200px; 
+    height: auto; 
+    float: right;
+    border-radius: 5px;
+}
+figure{
+    float: right;
+}
+
+.icon_local{
+    width: 19px;
+}
+
+footer{
+    text-align: center;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.titulos{
+    text-align: center;
+    align-items: center;
+    color:rgb(85, 10, 85);   
+    font: bold;
+}
+.lista_EP{
+    text-align: center;
+    text-decoration: none;
+}
+.colors{
+    color:rgb(85, 10, 85);   
+    color: darkmagenta;
+    color: rgb(167, 98, 167);
+    color: rgb(234, 175, 234);
+    color: #fff;
+   
+    background-color:rgb(217, 182, 131);
+   }
+   
