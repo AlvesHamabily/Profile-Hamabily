@@ -27,7 +27,7 @@ body{
 
 .max-width{
   max-width: 1800px;
-  padding: 0 10px;
+  padding: 0 10px p 10px;
   margin: auto;
 }
 
@@ -223,14 +223,14 @@ nav a:hover{
   margin-top: 10px;
   background-color:var(--primary-color);
   height: 100px;
-  width: 100%;
 }
 
 .social .conteudo_texto{
   color: var(--second-color);
   background-color: var(--primary-color);
   padding: 8px;
-  width: auto;
+  margin: 0;
+  width: 100%;
   align-items: center;
 }
 
@@ -250,7 +250,6 @@ nav a:hover{
   background-color:var(--second-color);
   width: auto;
 } 
-
 
 button{
   border: 0;
